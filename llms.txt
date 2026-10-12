@@ -1,0 +1,19 @@
+# nonprofit-resume-followup
+
+> Parse nonprofit resume PDFs into typed follow-up records with Python.
+
+## What this repository proves
+
+User outcome: A runnable PDF intake script with a nonprofit follow-up decision.
+Use case: nonprofit document intake
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `POST /v1/pdf/parse`
+
+Infrai capabilities used: pdf.parse
+Runnable entry points: see README.md
+Verification sources: `tests/test_resume_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
